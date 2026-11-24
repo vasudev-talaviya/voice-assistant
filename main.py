@@ -12,10 +12,13 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
+with open("prompt.txt",'r') as r:
+    sys_prompt = r.read()
+
 messages = [
     {
         "role": "system",
-        "content": "You're my good friend. Talk naturally and keep responses conversational."
+        "content": sys_prompt
     }
 ]
 
