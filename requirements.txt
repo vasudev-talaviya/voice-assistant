@@ -1,4 +1,6 @@
 streamlit
 groq
+SpeechRecognition
 edge-tts
+pygame
 python-dotenv

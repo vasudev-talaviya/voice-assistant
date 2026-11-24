@@ -1,0 +1,7 @@
+SpeechRecognition
+groq
+edge_tts
+pygame
+dotenv
+pyaudio
+streamlit
